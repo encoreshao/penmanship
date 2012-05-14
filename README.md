@@ -1,35 +1,38 @@
-# Bootstrap for Rails 3.x
+## Penmanship - Rails HTML CSS Javascript made easy.
+The idea came from Twitter Bootstrap.
 Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites.
-bootstrap provides simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. 
+Bootstrap provides simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions. 
 twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 3 projects
 
-## Thanks
-Thanks Twitter for Bootstrap
-http://twitter.github.com/bootstrap
+### Twitter Bootstrap
+Thanks Twitter for Bootstrap http://twitter.github.com/bootstrap
 
-## Rails 3.x
-Include lavender in Gemfile;
+## Installation
 
-    gem 'lavender', '~> 0.0.1'
-    
-or you can install from latest build;
+Add it to your Gemfile:
 
-    gem 'lavender', :git => 'http://github.com/fmmp3/lavender.git'
-    
-and run bundle install.
+`gem 'penmanship', :git => 'http://github.com/encoreshao/penmanship.git'`
 
-Add necessary stylesheet file to app/assets/stylesheets/application.css.scss
+Run the following command to install it:
 
-    *= require_self
-    *= require bootstrap
-    *= require bootstrap-responsive
-    *= require docs
-    
-Also you can add javascript support, expend your application.js like this:
+`bundle install`
 
+## Usage
+
+To start using **Penmanship** you just have to use the application.css it provides:
+
+```erb
+	*= require_self
+	*= require bootstrap
+	*= require bootstrap-responsive
+	*= require docs
+```
+
+To start using **Penmanship** you just have to use the application.js it provides:
+
+```erb
     //= require jquery
     //= require jquery_ujs
-
     //= require bootstrap-transition
     //= require bootstrap-alert
     //= require bootstrap-modal
@@ -42,12 +45,13 @@ Also you can add javascript support, expend your application.js like this:
     //= require bootstrap-collapse
     //= require bootstrap-carousel
     //= require bootstrap-typeahead
+```
     
 
 ## Credits
 Encore Shao - encore.shao [at] gmail com
 
-[Follow me on Twitter](http://twitter.com/fmmp3 "Twitter")
+[Follow me on Twitter](http://twitter.com/encoreshao "Twitter")
 
 ## Contributors
 <ul>
