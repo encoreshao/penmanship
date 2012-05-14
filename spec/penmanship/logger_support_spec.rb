@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe Lavender::LoggerSupport do
+describe Penmanship::LoggerSupport do
   class TestLog
-    include Lavender::LoggerSupport
+    include Penmanship::LoggerSupport
   end
 
   it "should be return rails logger" do

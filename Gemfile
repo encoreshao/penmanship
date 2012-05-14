@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in lavender.gemspec
+# Specify your gem's dependencies in penmanship.gemspec
 gemspec

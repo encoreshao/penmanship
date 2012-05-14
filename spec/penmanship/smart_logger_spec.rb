@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Lavender::SmartLogger do
+describe Penmanship::SmartLogger do
   before(:each) do
     @logger = Logger.new(STDOUT)
   end

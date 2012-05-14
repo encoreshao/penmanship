@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe Lavender::Daemon do
+describe Penmanship::Daemon do
   class TestDaemon
-    include Lavender::Daemon
+    include Penmanship::Daemon
     
     attr_writer :callback
     
