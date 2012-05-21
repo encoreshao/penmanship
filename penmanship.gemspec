@@ -1,5 +1,6 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/penmanship/version', __FILE__)
+$:.push File.expand_path("../lib", __FILE__)
+require "penmanship/version"
 
 Gem::Specification.new do |gem|
   gem.name          = "penmanship"
