@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.email                       = ["encore.shao@gmail.com"]
   gem.description                 = %q{A simple integration bootstrap, Add some cookies.}
   gem.summary                     = %q{A simple integration bootstrap, And some cookies...}
-  gem.homepage                    = "https://encoreshao@github.com/encoreshao/penmanship.git"
+  gem.homepage                    = "https://github.com/encoreshao/penmanship"
   
 
   gem.files                       = `git ls-files`.split($\)
