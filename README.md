@@ -11,7 +11,7 @@ Thanks Twitter for Bootstrap http://twitter.github.com/bootstrap
 
 Add it to your Gemfile:
 
-`gem 'penmanship', :git => 'http://github.com/encoreshao/penmanship.git'`
+`gem 'penmanship', :git => 'git://github.com/encoreshao/penmanship.git'`
 
 Run the following command to install it:
 
